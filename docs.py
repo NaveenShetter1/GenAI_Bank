@@ -15,6 +15,7 @@ docs = loader.load()
 
 # Split into chunks
 splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+
 chunks = splitter.split_documents(docs)
 
 # Use HuggingFace embeddings (free)
