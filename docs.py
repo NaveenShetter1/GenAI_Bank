@@ -5,6 +5,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_google_genai import GoogleGenerativeAI
 from langchain.chains import RetrievalQA
 import os
+import numpy
 
 # Set API key
 os.environ["GOOGLE_API_KEY"] = "AIzaSyAscCPbKWrM41aBimhKexldkDt77XaeNk0"
